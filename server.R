@@ -18,6 +18,7 @@ shinyServer(function(input, output) {
   output$trendPlot <- renderPlot({    
     
     num_names <- as.integer(input$num_names)
+      
     min_year <- input$display_range[1]
     max_year <- input$display_range[2]
     
