@@ -14,7 +14,6 @@ load("data/baby_names.rda")
 
 shinyServer(function(input, output) {
    
-    
   
   output$trendPlot <- renderPlot({    
     
@@ -52,6 +51,5 @@ shinyServer(function(input, output) {
     
     print(p)
   })
-  
-  
+    
 })
